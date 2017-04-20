@@ -1,0 +1,131 @@
+# Week 1 - HTML & CSS
+
+- Intro to web development 
+  - What is a browser?
+  - How does a browser show content?
+  - What is web development?
+  - Course overview 
+- Introduction to HTML
+  - Setting up your environment
+  - Editors, Directory structure, Tools
+  - **Exercise** Hello World: Your first web page 
+  - Survey of HTML elements
+    - Headings
+    - Paragraphs
+    - Images
+    - Styles
+      - Bold, Italic, Underline
+      - Font: Family
+      - Colors: Named and Hex
+      - Size
+      - Alignment
+    - Links
+    - Tables
+    - Lists
+    - Blocks: divs, spans
+    - Forms
+  - **Exercise** About Me: Build a profile page about yourself with a form to contact
+- Introduction to CSS
+  - Overview of the CSS syntax
+  - How to use CSS
+    - Inline CSS
+    - Embedding CSS into your HTML pages
+    - Importing a CSS stylesheet
+  - CSS Selectors
+    - Using selectors for Standard HTML elements
+    - Using selectors with divs
+    - Using selectors with spans
+  - Styling with CSS
+    - Colors  
+    - Backgrounds
+    - Borders
+    - Margins & Padding
+    - Size
+    - Text Manipulations
+  - CSS Boxing For Layouts
+  - Responsive/Mobile design basics
+  - **Exercise** Style your about site. Create multiple pages with links. Add a responsive image gallery showing photos of you and your family.  
+
+# Week 2 - Introduction to Coding With Javascript
+
+- Intro to JS
+  - What is Javascript and what's it's role in web development
+  - Setting up your editor/tools to write javascript
+  - Basic syntax / Setting up your webpage to write Javascript
+  - Placement (head, body, external file)
+  - Displaying information (webpage, console, alert)
+  - **Exercise** Your first Javascript app: Hello World!
+- Coding Basics
+  - Variables
+    - What is a variable?
+    - Survey of primitive datatypes in Javascript
+      - string
+      - number
+      - boolean
+      - null
+      - undefined
+    - Variable naming convention
+    - **Exercise** Refactor your "Hello World" app to print "Hello [Name]" where [Name] is stored in a variable
+  - Operators
+    - Assignment
+    - Arithmetic 
+    - Increment 
+    - Comparison 
+    - typeof
+    - **Exercise** Adder: Take 2 number from a prompt and add them together. Display the results 
+  - Basic Flow Control 
+    - If/Else Statement
+    - Switch Statement
+
+# Week 3 - Introduction To Coding With Javascript Continued
+
+- Intro to JS Continued
+  - Coding Basics Continued
+    - Loops
+      - For-Loops
+      - While-Loops
+      - Loop Control (break, continue)
+      - **Excerise** Guessing Game: Ask the user to think of a number between 1 and 100. Then have the computer make guesses and ask the user if their number is higher or lower than the guess. The computer will then guess the difference / 2 or the difference * 2 until they correctly guess the user's number.
+    - Functions
+      - Definition 
+      - Calling Functions
+      - Passing in data (parameters)
+      - Returning data 
+- Intermediate Programming in Javascript 
+  - Arrays
+    - Declaration 
+    - Indexing
+    - Length
+    - Looping
+  - Introduction to Object Oriented Programming
+  - What are objects and how are they used?
+  - Declaring objects in Javascript 
+    - Properties
+    - Methods
+    - Constructors
+    - This keyword
+    - Prototype
+      - Adding properties to objects
+      - Adding methods to objects
+    - Inheritance 
+  - Manipulating the DOM with Javascript
+    - Creating elements
+    - Appending elements
+    - Styling elements
+    - Getting/Setting elements
+    - Finding elements
+    - **Exercise** Tic-Tac-Toe  
+  - **Exercise** Pong Using the P5 Library
+
+# Week 4 - Introduction to Server-side Development Using Node.js
+  
+- What is "server side" development?
+- Overview of how a web server works and delivers content
+- Survey of the different server-side development technologies and why we chose to teach node.js
+- Introduction to the command line
+  - Putty for Windows, iTerm for Mac
+  - Basic Commands and Navigation 
+  - Creating and deleting folders
+- Introduction to node.js
+  - Setting up the tools / environment 
+  - Overview of the node file structure 
