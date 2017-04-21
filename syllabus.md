@@ -3,6 +3,7 @@
 - Intro to web development 
   - What is a browser?
   - How does a browser show content?
+  - Basic Client - Server architecture
   - What is web development?
   - Course overview 
 - Introduction to HTML
@@ -128,4 +129,40 @@
   - Creating and deleting folders
 - Introduction to node.js
   - Setting up the tools / environment 
-  - Overview of the node file structure 
+  - Overview of the node file structure
+  - **Excercise** Hello World - Your first server 
+- Introduction to Node Package Manager
+  - What are package managers and why do we need them?
+  - Installing Node packages using npm
+  - **Exercise** Your first file server. Using the Node package `node-static`, write a server that serves up your about website.
+- Introduction to the MVC Design pattern
+  - What is MVC?
+    - Model
+    - View 
+    - Controller
+  - How does the MVC design pattern apply to Node.js applications?
+  - How do you structure a node project to support MVC?
+- Introduction to Express: Routing
+  - Where does Express fit into the MVC equation?
+  - Creating a basic express application from the express template.
+  - Basics of routing
+    - HTTP Verbs
+      - GET
+      - POST
+      - PUT
+      - DELETE
+  - Serving dynamic content from routes
+  - **Exercise** - Create a multi-page website using at least 4 routes. POST form content to one route and display it.
+  - Creating View Templates
+    - What are view templates and why should we use them?
+    - Survey of the different view templates (EJS, Jade, Pug)
+    - Refactoring your multi-page site to use view templates
+    - **Exercise** - Convert your multi-page site to using view templates
+  - Models
+    - How to create model objects in Node.js
+    - How to import and use those models in your application
+    - **Exercise** - Favorite things website - Create an MVC website displaying a list of your favorite things using a `Favorite` model
+
+# Week 5 - Databases and Data Persistence 
+
+
