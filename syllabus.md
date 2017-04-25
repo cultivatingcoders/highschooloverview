@@ -164,5 +164,36 @@
     - **Exercise** - Favorite things website - Create an MVC website displaying a list of your favorite things using a `Favorite` model
 
 # Week 5 - Databases and Data Persistence 
+- What is a database?
+- Why do we need databases?
+- An introduction to MySQL
+  - Getting the tools
+  - Installing Sequel Pro
+  - Connecting to a database (Heroku)
+  - Database tables
+  - Database Columns
+    - Datatypes
+  - Database rows
+  - Basic Sequel Statements
+    - INSERT
+    - SELECT
+    - UPDATE  
+    - DELETE
+- Setting up Node.js to talk to a database
+  - Survey of libraries 
+  - Setting up Sequelize 
+  - Connecting to your database
+  - Creating your first model
+    - Creating
+    - Searching
+    - Updating
+    - Deleting
+- **Exercise** Create a basic blog engine using Express + Sequelize
+  - Create/Edit/Delete posts 
+    - POST /posts
+  - List posts 
+    - GET /posts
+  - List a single post
+    - GET /posts/{post_id}
 
 
