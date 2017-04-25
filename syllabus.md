@@ -196,4 +196,25 @@
   - List a single post
     - GET /posts/{post_id}
 
+# Week 6 - Creating JSON APIs: The language of the Internet
+- What is REST?
+- How do modern web applications talk to eachother
+- What is JSON?
+- How does JSON work with Javascript?
+- **Excercise:** Building an API on top of our blog
+- **Exercise**: Cat-chat - A snap chat clone (We build the front-end, they code the backend to spec)
+
+# Week 7 - Community Project
+- Brainstorming ideas
+- Project pitches
+- Project voting
+- Creating a requirements document 
+- Drawing wireframes (pen and paper)
+- Implement static HTML prototype 
+
+# Week 8 - Community Project Continued
+- Building the backend to support your project
+- Creating a presentation
+- Presenting your team's project
+
 
