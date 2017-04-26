@@ -115,7 +115,21 @@
     - Styling elements
     - Getting/Setting elements
     - Finding elements
-    - **Exercise** Tic-Tac-Toe  
+    - **Exercise** Tic-Tac-Toe
+  - Debugging 101
+    - Introduce Chrome Developer Tools  
+      - Elements Tab
+        - DOM elements and associated properties
+      - Network Tab 
+        - Monitor incoming/outgoing HTTP requests
+        - Tracking AJAX requests
+      - Sources Tab
+        - Adding breakpoints
+        - Stepping through script execution 
+      - Console
+        - Running commands directly in the console
+        - Using console.log(); for debugging
+        - Handling errors (effective Googling, Stack Overflow use)
   - **Exercise** Pong Using the P5 Library
 
 # Week 4 - Introduction to Server-side Development Using Node.js
@@ -162,6 +176,21 @@
     - How to create model objects in Node.js
     - How to import and use those models in your application
     - **Exercise** - Favorite things website - Create an MVC website displaying a list of your favorite things using a `Favorite` model
+- Introduction to version control with Git
+  - What is Git/GitHub and why should we use them?
+  - Downloading and installing Git
+  - Setting up GitHub account
+  - Basic Git workflow/useful commands
+    - git init
+    - git clone </path/to/repository>
+    - git add <filename>
+    - git add *
+    - git commit -m "Commit message"
+    - git push
+    - git branch <branch_name>
+    - git checkout <branch_name>
+    - git pull
+    - git merge <branch_name>   
 
 # Week 5 - Databases and Data Persistence 
 - What is a database?
