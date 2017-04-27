@@ -116,7 +116,8 @@
     - Getting/Setting elements
     - Finding elements
     - **Exercise** Tic-Tac-Toe
-  - Debugging 101
+  - **Exercise** Pong Using the P5 Library
+- Debugging 101
     - Introduce Chrome Developer Tools  
       - Elements Tab
         - DOM elements and associated properties
@@ -129,8 +130,7 @@
       - Console
         - Running commands directly in the console
         - Using console.log(); for debugging
-        - Handling errors (effective Googling, Stack Overflow use)
-  - **Exercise** Pong Using the P5 Library
+        - Handling errors (effective Googling, Stack Overflow use)  
 
 # Week 4 - Introduction to Server-side Development Using Node.js
   
@@ -183,7 +183,7 @@
   - Basic Git workflow/useful commands
     - git init
     - git clone </path/to/repository>
-    - git add <filename>
+    - git add <file_name>
     - git add *
     - git commit -m "Commit message"
     - git push
