@@ -227,23 +227,48 @@
 
 # Week 6 - Creating JSON APIs: The language of the Internet
 - What is REST?
+  - POST vs PUT (or PATCH, if you guys prefer PATCH)
+  - DELETE
+  - This is only assuming we didn't go over these http methods in great detail back in week 4
 - How do modern web applications talk to eachother
 - What is JSON?
 - How does JSON work with Javascript?
 - **Excercise:** Building an API on top of our blog
+  - Show how to send back JSON data
 - **Exercise**: Cat-chat - A snap chat clone (We build the front-end, they code the backend to spec)
+  - How to read a spec
+    - Developing models based on spec
+    - Developing routes based on spec
+  - User Authentication with Passport and JWTs
+  - How to accept incoming POST JSON data, along with PUT JSON data
+  - Handling complex file types (videos, photos if we haven't gotten there yet)
 
 # Week 7 - Community Project
 - Brainstorming ideas
 - Project pitches
-- Project voting
-- Creating a requirements document 
+  - Get approximately 3 minutes to pitch idea
+- Project voting (Startup Weekend style)
+  - Everyone gets 3 votes
+  - Spread out votes across ideas or stack them all on one (including their own)
+  - Top 3 - 4 ideas are what they work on (give or take, just make sure there's 3 to 4 people per team)
+  - Possibly step in on team assignments to make sure they're balanced
+- Identifying a Minimum Viable Product
+  - Try to pare it down over at least 3 passes
+- Creating a requirements document
+  - What will the user ultimately be trying to accomplish?
+    - What sort of models will project require?
+    - What sort of routes?
 - Drawing wireframes (pen and paper)
+- Delegate work using Trello
 - Implement static HTML prototype 
+- Building the backend to support your project (stretch goal)
+  - Teach them how to use stub data if we haven't yet
+  - Begin to templatify some of their pages
+- Daily check-ins to see where everyone's at (standup?)
 
 # Week 8 - Community Project Continued
-- Building the backend to support your project
+- Building the backend to support your project (continued)
+  - Use "actual" data (use a database)
+  - Continue templatifying some of their pages
 - Creating a presentation
 - Presenting your team's project
-
-
