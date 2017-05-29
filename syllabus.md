@@ -8,8 +8,13 @@
   - Course overview 
 - Introduction to HTML
   - Setting up your environment
+   - Installing Submlime Text
+   - Installing Google Chrome
   - Editors, Directory structure, Tools
-  - **Exercise** Hello World: Your first web page 
+   - Creating a text document and displaying in a browser
+   - How to show file extensions in Windows
+   - Renaming your text file to show HTML
+   - **Exercise** Hello World: Your first web page 
   - Survey of HTML elements
     - Headings
     - Paragraphs
@@ -55,6 +60,8 @@
   - Basic syntax / Setting up your webpage to write Javascript
   - Placement (head, body, external file)
   - Displaying information (webpage, console, alert)
+  - Opening the Javascript Console
+  - Writing information to the Javascript Console
   - **Exercise** Your first Javascript app: Hello World!
 - Coding Basics
   - Variables
