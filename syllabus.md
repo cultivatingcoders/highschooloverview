@@ -165,7 +165,8 @@
         - Running commands directly in the console
         - Using console.log(); for debugging
         - Handling errors (effective Googling, Stack Overflow use)  
-- **HOMEWORK:**: Create 3 Javascript programs
+- **HOMEWORK:** 
+  - Create 3 Javascript programs
      - Digital Clock: Create a program that draws a working digital clock in the browser. Bonus: Create an "alarm" that pops up an alert at a given time.
      - Average: Write a function that takes in 3 numbers and returns their average.
      - Hello World Translator: Write a function `helloWorld` that takes in a language and returns 'Hello World' in that language.  Your program should work with at least 3 languages. _example:_ `helloWorld('spa')` => `Hola mundo`
