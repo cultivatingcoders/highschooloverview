@@ -30,6 +30,10 @@
     - Lists
     - Blocks: divs, spans
     - Forms
+     - Text Field
+     - Select
+     - Radio Buttons
+     - Submit Buttons
   - **Exercise** About Me: Build a profile page about yourself with a form to contact
 - Introduction to CSS
   - Overview of the CSS syntax
@@ -51,9 +55,24 @@
   - CSS Boxing For Layouts
   - Responsive/Mobile design basics
   - **Exercise** Style your about site. Create multiple pages with links. Add a responsive image gallery showing photos of you and your family.  
+  - **HOMEWORK:**: 
+     - Review HTML/CSS on the W3 website and complete the exercises
+       - https://www.w3schools.com/html/
+       - https://www.w3schools.com/css/  
+     - Continue working on your about me website 
+       - Photos/descriptions of your "Favorite things"
+       - At least 5 links to other website you like
+       - Include anything else that reflects you 
 
-# Week 2 - Introduction to Coding With Javascript
+# Week 2 - Web Design
+- Survey of CSS Frameworks
+- Introduction to Bootstrap
+  - Ways of using bootstrap in your web applications (downloading vs CDN)  
+  - Survey of bootstrap elements 	
+- **Exercise**: Improve the aesthetic of your personal site by using bootstrap elements. 
+- TBD...
 
+# Week 3 - Introduction to Coding With Javascript
 - Intro to JS
   - What is Javascript and what's it's role in web development
   - Setting up your editor/tools to write javascript
@@ -80,12 +99,26 @@
     - Increment 
     - Comparison 
     - typeof
-    - **Exercise** Adder: Take 2 number from a prompt and add them together. Display the results 
+    - **Exercise** Drum machine: Create a basic drum machine that plays different sounds when each drum has been clicked.
   - Basic Flow Control 
     - If/Else Statement
     - Switch Statement
+  - Functions
+      - Definition 
+      - Calling Functions
+      - Passing in data (parameters)
+      - Returning data 
+  - Introduction to the P5.js library and the canvas
+    - Setting up your development environment to support P5
+    - Drawing basic shapes
+    - Interactions
+    - Basic physics
+    - **Exercise** Flappy Bird - Create a basic clone of flappy bird using basic shapes  
+- **HOMEWORK:**: Create 2 Javascript programs
+     - Larger Number: Have the user enter in two numbers into an input field and output which number is larger
+     - Complete the flappy bird game using your own graphics
 
-# Week 3 - Introduction To Coding With Javascript Continued
+# Week 4 - Introduction To Coding With Javascript Continued
 
 - Intro to JS Continued
   - Coding Basics Continued
@@ -93,12 +126,7 @@
       - For-Loops
       - While-Loops
       - Loop Control (break, continue)
-      - **Excerise** Guessing Game: Ask the user to think of a number between 1 and 100. Then have the computer make guesses and ask the user if their number is higher or lower than the guess. The computer will then guess the difference / 2 or the difference * 2 until they correctly guess the user's number.
-    - Functions
-      - Definition 
-      - Calling Functions
-      - Passing in data (parameters)
-      - Returning data 
+      - **Excerise** Guessing Game: Ask the user to think of a number between 1 and 100. Then have the computer make guesses and ask the user if their number is higher or lower than the guess. The computer will then guess the difference / 2 or the difference * 2 until they correctly guess the user's number.    
 - Intermediate Programming in Javascript 
   - Arrays
     - Declaration 
@@ -123,7 +151,6 @@
     - Getting/Setting elements
     - Finding elements
     - **Exercise** Tic-Tac-Toe
-  - **Exercise** Pong Using the P5 Library
 - Debugging 101
     - Introduce Chrome Developer Tools  
       - Elements Tab
@@ -138,8 +165,12 @@
         - Running commands directly in the console
         - Using console.log(); for debugging
         - Handling errors (effective Googling, Stack Overflow use)  
+- **HOMEWORK:**: Create 3 Javascript programs
+     - Digital Clock: Create a program that draws a working digital clock in the browser. Bonus: Create an "alarm" that pops up an alert at a given time.
+     - Average: Write a function that takes in 3 numbers and returns their average.
+     - Hello World Translator: Write a function `helloWorld` that takes in a language and returns 'Hello World' in that language.  Your program should work with at least 3 languages. _example:_ `helloWorld('spa')` => `Hola mundo`
 
-# Week 4 - Introduction to Server-side Development Using Node.js
+# Week 5 - Introduction to Server-side Development Using Node.js
   
 - What is "server side" development?
 - Overview of how a web server works and delivers content
@@ -174,6 +205,8 @@
       - DELETE
   - Serving dynamic content from routes
   - **Exercise** - Create a multi-page website using at least 4 routes. POST form content to one route and display it.
+  
+# Week 6 - Creating Multi-page Websites Using Node.js & Intro To Version Control
   - Creating View Templates
     - What are view templates and why should we use them?
     - Survey of the different view templates (EJS, Jade, Pug)
@@ -198,10 +231,12 @@
     - git checkout <branch_name>
     - git pull
     - git merge <branch_name>   
-
-# Week 5 - Databases and Data Persistence 
+  - **Homework** 
+    - Publish your about me website to github pages https://pages.github.com
+    - Sign up for https://www.freemysqlhosting.net and create your first database
+# Week 7 - Databases and Data Persistence 
 - What is a database?
-- Why do we need databases?
+- Why do we need databases
 - An introduction to MySQL
   - Getting the tools
   - Installing Sequel Pro
@@ -218,64 +253,83 @@
 - Setting up Node.js to talk to a database
   - Survey of libraries 
   - Setting up Sequelize 
-  - Connecting to your database
+  - Connecting to your mysql database
   - Creating your first model
     - Creating
     - Searching
     - Updating
     - Deleting
-- **Exercise** Create a basic blog engine using Express + Sequelize
-  - Create/Edit/Delete posts 
-    - POST /posts
-  - List posts 
-    - GET /posts
-  - List a single post
-    - GET /posts/{post_id}
+- **Exercise/HOMEWORK** 
+  - Create a basic blog engine using Express + Sequelize
+    - Create/Edit/Delete posts 
+      - POST /posts
+    - List posts 
+      - GET /posts
+    - List a single post
+      - GET /posts/{post_id}
 
-# Week 6 - Creating JSON APIs: The language of the Internet
+# Week 8 - Creating And Interacting With JSON APIs: The language of the Internet
 - What is REST?
   - POST vs PUT (or PATCH, if you guys prefer PATCH)
   - DELETE
   - This is only assuming we didn't go over these http methods in great detail back in week 4
-- How do modern web applications talk to eachother
+- How do modern web applications talk to each other
 - What is JSON?
 - How does JSON work with Javascript?
-- **Excercise:** Building an API on top of our blog
+- **Excercise:** Building an API on top of your blog
   - Show how to send back JSON data
-- **Exercise**: Cat-chat - A snap chat clone (We build the front-end, they code the backend to spec)
-  - How to read a spec
-    - Developing models based on spec
-    - Developing routes based on spec
-  - User Authentication with Passport and JWTs
-  - How to accept incoming POST JSON data, along with PUT JSON data
-  - Handling complex file types (videos, photos if we haven't gotten there yet)
+  - Allow Posts to be viewed and created via your api
+- Intro to JQuery & Asynchronous Javascript
+  - Basic JQuery syntax
+  - Using the $ operator and gaining access to DOM elements
+  - Manipulating DOM elements
+  - Interacting with web APIs
+  - Converting form data to JSON
+- **HOMEWORK** 
+  - Update your blog admin to create posts using your API without refreshing the page using `$.post`
 
-# Week 7 - Community Project
+# Week 9 - Deployment 
+- Differences between staging/local and production
+- Setting up a basic web server
+  - Setting up a Digital Ocean instance http://digitalocean.com
+  - A survey of the different server types
+  - Creating a new server instance
+  - Creating an ssh key-value pair
+  - ssh-ing into your server
+  - Installing node.js on your server
+- Deploying your blog API application 
+  - Connecting your server to github
+  - Tuning your application to run in production
+- **HOMEWORK** 
+  - Come up with 3 project ides for community project. 
+    - Be prepared to pitch your best one 
+    - Have a 3 slide presentation ready to show the class
+    - Make sure that the project is relevant to your community and can be achieved in 3 weeks
+
+# Week 10-12 - Intro to Scrum Project Management & Community Project
 - Brainstorming ideas
 - Project pitches
   - Get approximately 3 minutes to pitch idea
-- Project voting (Startup Weekend style)
+- Project voting 
   - Everyone gets 3 votes
   - Spread out votes across ideas or stack them all on one (including their own)
   - Top 3 - 4 ideas are what they work on (give or take, just make sure there's 3 to 4 people per team)
-  - Possibly step in on team assignments to make sure they're balanced
-- Identifying a Minimum Viable Product
-  - Try to pare it down over at least 3 passes
+- Identifying a Minimum Viable Product (MVP)
+  - Pare it down to 3 sprints
 - Creating a requirements document
-  - What will the user ultimately be trying to accomplish?
-    - What sort of models will project require?
-    - What sort of routes?
+  - Creating a features list
+  - Data modeling
+  - Designing necessary routes
+- SCRUM Project Management 
+  - Populating the backlog with project features
+  - Sprint planning
+  - Daily standups
+  - Sprint retrospective  
+  - **Exercise** Sign up for Trello http://trellow and populate the backlog with your team's requirements   
 - Drawing wireframes (pen and paper)
-- Delegate work using Trello
 - Implement static HTML prototype 
-- Building the backend to support your project (stretch goal)
-  - Teach them how to use stub data if we haven't yet
-  - Begin to templatify some of their pages
-- Daily check-ins to see where everyone's at (standup?)
-
-# Week 8 - Community Project Continued
-- Building the backend to support your project (continued)
-  - Use "actual" data (use a database)
-  - Continue templatifying some of their pages
-- Creating a presentation
+- Building the backend to support project 
+- **Exercise/Homework**
+  - Creating a presentation / demo to show off the application during "demo day"  
 - Presenting your team's project
+- Presenting your personal project
