@@ -289,7 +289,7 @@
 - **HOMEWORK** 
   - Update your blog admin to create posts using your API without refreshing the page using `$.post`
 
-# Week 9 - Deployment 
+# Week 9 - Deployment & Project Pitches
 - Differences between staging/local and production
 - Setting up a basic web server
   - Setting up a Digital Ocean instance http://digitalocean.com
@@ -301,13 +301,6 @@
 - Deploying your blog API application 
   - Connecting your server to github
   - Tuning your application to run in production
-- **HOMEWORK** 
-  - Come up with 3 project ides for community project. 
-    - Be prepared to pitch your best one 
-    - Have a 3 slide presentation ready to show the class
-    - Make sure that the project is relevant to your community and can be achieved in 3 weeks
-
-# Week 10-12 - Intro to Scrum Project Management & Community Project
 - Brainstorming ideas
 - Project pitches
   - Get approximately 3 minutes to pitch idea
@@ -321,15 +314,32 @@
   - Creating a features list
   - Data modeling
   - Designing necessary routes
-- SCRUM Project Management 
+- **HOMEWORK** 
+  - Come up with 3 project ides for community project. 
+    - Be prepared to pitch your best one 
+    - Have a 3 slide presentation ready to show the class
+    - Make sure that the project is relevant to your community and can be achieved in 3 weeks
+    
+# Week 10-12 - Intro to Scrum Project Management & Community Project
+- Intro to SCRUM Project Management 
   - Populating the backlog with project features
   - Sprint planning
   - Daily standups
   - Sprint retrospective  
-  - **Exercise** Sign up for Trello http://trellow and populate the backlog with your team's requirements   
-- Drawing wireframes (pen and paper)
-- Implement static HTML prototype 
-- Building the backend to support project 
+  - **Exercise** Sign up for Trello http://trello.com and populate the backlog with your team's requirements   
+- Sprint 1 (Week 10)
+  - Begin work on wireframes of the community project
+  - Start building server and setting up toolchain
+  - Complete data modeling and start on API work 
+- Sprint 2 (Week 11)
+  - Build Data base 
+  - Complete API work 
+  - Work on front-end of community project
+  - Complete 
+- Sprint 3 (Week 12)
+  - Complete application implementation 
+  - Bug Fixes
+  - Prepare presentations 
 - **Exercise/Homework**
   - Creating a presentation / demo to show off the application during "demo day"  
 - Presenting your team's project
