@@ -8,7 +8,7 @@
   - Course overview 
 - Introduction to HTML
   - Setting up your environment
-   - Installing Submlime Text
+   - Installing Sublime Text
    - Installing Google Chrome
   - Editors, Directory structure, Tools
    - Creating a text document and displaying in a browser
@@ -180,7 +180,7 @@
   - Putty for Windows, iTerm for Mac
   - Basic Commands and Navigation 
   - Creating and deleting folders
-- Introduction to node.js
+- Introduction to Node.js
   - Setting up the tools / environment 
   - Overview of the node file structure
   - **Excercise** Hello World - Your first server 
@@ -235,13 +235,14 @@
   - **Homework** 
     - Publish your about me website to github pages https://pages.github.com
     - Sign up for https://www.freemysqlhosting.net and create your first database
+    
 # Week 7 - Databases and Data Persistence 
 - What is a database?
 - Why do we need databases
 - An introduction to MySQL
   - Getting the tools
   - Installing Sequel Pro
-  - Connecting to a database (Heroku)
+  - Connecting to a database 
   - Database tables
   - Database Columns
     - Datatypes
@@ -323,9 +324,9 @@
 # Week 10-12 - Intro to Scrum Project Management & Community Project
 - Intro to SCRUM Project Management 
   - Populating the backlog with project features
-  - Sprint planning
-  - Daily standups
-  - Sprint retrospective  
+  - Sprint Planning
+  - Daily Standups
+  - Sprint Retrospective  
   - **Exercise** Sign up for Trello http://trello.com and populate the backlog with your team's requirements   
 - Sprint 1 (Week 10)
   - Begin work on wireframes of the community project
