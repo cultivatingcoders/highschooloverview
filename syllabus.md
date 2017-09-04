@@ -65,12 +65,18 @@
        - Include anything else that reflects you 
 
 # Week 2 - Web Design
-- Survey of CSS Frameworks
+- Introduction to Design Aesthetic
+- The Importance of Design
+  - Why design matters — A look at specific case studies that demonstrate why effective design is smart business
+  - Key design principles — An introduction to the language of design, plus learn a few key strategies for creating effective visual design
+  - Design = Communication — When a user first comes to a website, does he or she understand the site’s purpose and what action he or she should take on the site? Learn how a clear visual hierarchy and strong focal points drive effective communication and contribute to a successful website.
+  - Typography 101 — Learn the basics of typography, including understanding the components of type and the basic do’s and don’ts of designing with type.
+  - Professional practice — Learn about design specializations including user experience (UX) design and user interface (UI) design, and how these fit into the life cycle of a project.
+  - Survey of CSS Frameworks
 - Introduction to Bootstrap
   - Ways of using bootstrap in your web applications (downloading vs CDN)  
   - Survey of bootstrap elements 	
 - **Exercise**: Improve the aesthetic of your personal site by using bootstrap elements. 
-- TBD...
 
 # Week 3 - Introduction to Coding With Javascript
 - Intro to JS
@@ -254,7 +260,7 @@
     - DELETE
 - Setting up Node.js to talk to a database
   - Survey of libraries 
-  - Setting up Sequelize 
+  - A brief tour of PHPMyAdmin
   - Connecting to your mysql database
   - Creating your first model
     - Creating
@@ -262,33 +268,38 @@
     - Updating
     - Deleting
 - **Exercise/HOMEWORK** 
-  - Create a basic blog engine using Express + Sequelize
-    - Create/Edit/Delete posts 
-      - POST /posts
-    - List posts 
-      - GET /posts
-    - List a single post
-      - GET /posts/{post_id}
+  - Create a basic form to accept location info (name, description, coordinates)
+  - These locations will be used in the following week to populate an Ezri map.
 
-# Week 8 - Creating And Interacting With JSON APIs: The language of the Internet
-- What is REST?
-  - POST vs PUT (or PATCH, if you guys prefer PATCH)
-  - DELETE
-  - This is only assuming we didn't go over these http methods in great detail back in week 4
-- How do modern web applications talk to each other
-- What is JSON?
-- How does JSON work with Javascript?
-- **Excercise:** Building an API on top of your blog
-  - Show how to send back JSON data
-  - Allow Posts to be viewed and created via your api
-- Intro to JQuery & Asynchronous Javascript
-  - Basic JQuery syntax
-  - Using the $ operator and gaining access to DOM elements
-  - Manipulating DOM elements
-  - Interacting with web APIs
-  - Converting form data to JSON
-- **HOMEWORK** 
-  - Update your blog admin to create posts using your API without refreshing the page using `$.post`
+# Week 8 - Mapping and GeoLocation Integration
+
+- Introduction to the ArcGIS API for JavaScript
+- Build a simple map application
+  - Import libraries
+  - Add Map
+  - Set options and style
+  - Toggle 2D/3D
+- Introduction to Dojo
+  - domReady!
+  - require() function
+- Layers
+  - Layer types
+  - Adding layers
+  - Styling layers
+  - Add layers to simple map app
+  - Add popups
+- Widgets
+  - Add widgets (2D/3D toggle, basemap gallery, legend, etc)
+  - Add geolocation to your app
+- Graphics layer
+  - Adding graphics to a map
+  - Draw graphics from your own data (from JSON API on MySQL)
+    - Would like to tie this in to previous weeks so they can use a service that they’ve already created
+- Analysis
+- The Geoprocessor
+- **Exercise/HOMEWORK** 
+ - Implement a map-based application
+ - Display location data from your database that you built in week 7
 
 # Week 9 - Deployment & Project Pitches
 - Differences between staging/local and production
